@@ -1,0 +1,29 @@
+.footer {
+  height: 70px;
+  background-color: transparent;
+  padding: 0 110px 0 30px;
+  position: relative;
+  display: grid; }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .footer img {
+    position: absolute;
+    right: 0;
+    top: 45%; }
+  .footer .telegram-robot {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #f0f0f0; }
+    .footer .telegram-robot a {
+      color: #f0f0f0; }
+  .footer .copyright {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+/*# sourceMappingURL=footer.css.map */

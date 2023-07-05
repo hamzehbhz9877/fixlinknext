@@ -1,0 +1,54 @@
+.action .profile {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center; }
+
+@media (max-width: 767.98px) {
+  .profile .welcome {
+    display: none; } }
+
+.action .angle {
+  color: white;
+  transition: .2s;
+  margin-right: 10px; }
+  .action .angle.rotate {
+    transform: rotate(180deg); }
+
+.action .menu {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: .2s;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1; }
+  .action .menu.active-menu {
+    top: 80px;
+    opacity: 1;
+    visibility: visible; }
+  .action .menu::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    transform: rotate(45deg); }
+  .action .menu ul a:hover {
+    color: #19B5FE; }
+  .action .menu ul li a {
+    color: #222222;
+    transition: .2s;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center; }
+  .action .menu ul li i {
+    margin-left: 10px; }
+
+/*# sourceMappingURL=dropDownMenu.css.map */

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="881" height="458.01" viewBox="0 0 897.884 568">
+  <g id="Group_1598" data-name="Group 1598" transform="translate(-511 -292)">
+    <text id="Access_Denied" data-name="Access Denied" transform="translate(706 793)" fill="#fafcfb" font-size="79" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Access Denied</tspan></text>
+    <text id="SORRY_THE_PAGE_NOT_FOUND" data-name="SORRY, THE PAGE NOT FOUND" transform="translate(814 855)" fill="#fafcfb" font-size="21" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">SORRY, THE PAGE NOT FOUND</tspan></text>
+    <g id="Group_1596" data-name="Group 1596" transform="translate(-30.261)">
+      <g id="Group_1595" data-name="Group 1595" transform="translate(1106.98 549.061)">
+        <path id="Path_4541" data-name="Path 4541" d="M453.352,327.03c.1-1.329.2-2.649.2-4a56.028,56.028,0,1,0-112.056,0c0,1.353.108,2.673.2,4Z" transform="translate(-341.5 -254.994)" fill="#f6feff"/>
+        <path id="Path_4542" data-name="Path 4542" d="M494.352,327.03c.1-1.329.2-2.649.2-4a56.028,56.028,0,1,0-112.056,0c0,1.353.108,2.673.2,4Z" transform="translate(-218.418 -254.994)" fill="#f6feff"/>
+        <path id="Path_4543" data-name="Path 4543" d="M508.352,327.03c.1-1.329.2-2.649.2-4a56.028,56.028,0,1,0-112.056,0c0,1.353.108,2.673.2,4Z" transform="translate(-176.391 -254.994)" fill="#f6feff"/>
+        <path id="Path_4544" data-name="Path 4544" d="M496.364,336.036c.08-1.333.2-2.649.2-4a68.034,68.034,0,0,0-136.068,0c0,1.353.124,2.669.2,4Z" transform="translate(-284.462 -264)" fill="#f6feff"/>
+      </g>
+      <g id="Ellipse_150" data-name="Ellipse 150" transform="translate(797 292)" fill="#19b5fe" stroke="#707070" stroke-width="1" opacity="0.15">
+        <circle cx="206.5" cy="206.5" r="206.5" stroke="none"/>
+        <circle cx="206.5" cy="206.5" r="206" fill="none"/>
+      </g>
+      <g id="Group_1594" data-name="Group 1594" transform="translate(541.261 368.171)">
+        <path id="Path_4538" data-name="Path 4538" d="M201.283,233.075a70.542,70.542,0,0,0-140.733,0Z" transform="translate(-60.55 -152.367)" fill="#f6feff"/>
+        <path id="Path_4539" data-name="Path 4539" d="M242.283,233.075a70.542,70.542,0,0,0-140.733,0Z" transform="translate(105.262 -152.367)" fill="#f6feff"/>
+        <path id="Path_4540" data-name="Path 4540" d="M250.548,245.207a85.641,85.641,0,0,0-171,0Z" transform="translate(16.29 -164.5)" fill="#f6feff"/>
+      </g>
+      <line id="Line_173" data-name="Line 173" x2="326.311" transform="translate(1036.978 422.496)" fill="none" stroke="#fafcfb" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_174" data-name="Line 174" x2="156.357" transform="translate(1159.345 391.904)" fill="none" stroke="#fafcfb" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

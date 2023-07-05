@@ -1,0 +1,116 @@
+@import "colors";
+
+.navigation {
+  position: fixed;
+  right: 0;
+  height: -webkit-calc(100vh - 90px);
+  height: -moz-calc(100vh - 90px);
+  height: 100vh;
+  top: 70px;
+  left: 0;
+  width: 300px;
+  padding-bottom: 15px;
+  background: $x7;
+  z-index: 998;
+  transition: 0s ease;
+  @media (max-width: 991.98px) {
+    z-index: 1100;
+  }
+  &-main {
+    position: fixed;
+    height: -webkit-calc(100vh - 90px);
+    height: -moz-calc(100vh - 90px);
+    height: 100vh;
+    right: -300px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    padding-bottom: 15px;
+    background: $x2;
+    z-index: 998;
+    transition: 0s ease;
+    @media (max-width: 991.98px) {
+      z-index: 1100;
+    }
+
+    &.open {
+      right: 0;
+    }
+  }
+
+  &.open {
+    right: 0;
+  }
+}
+
+.mobile-menu, .close-menu {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .mobile-menu, .close-menu {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navigation {
+    right: -300px;
+    top: 0;
+
+    &.open {
+      right: 0;
+    }
+  }
+
+
+  .mobile-menu, .close-menu {
+    display: inline-block;
+    margin-left: 15px;
+  }
+}
+
+
+.navigationApps li a {
+  font-weight: 700;
+  color: $x4;
+  display: flex;
+  align-items: center;
+
+  & i {
+    font-size: 1.4rem !important;
+    margin-left: 20px;
+  }
+
+  &.active-side-bar {
+    color: $x6;
+  }
+}
+
+.navigation-menu-body li {
+  padding: 10px 15px;
+}
+
+.navigation-menu-body li a {
+  padding: 13px;
+  font-size: 16px;
+}
+
+.fa-times {
+  font-size: 27px;
+  color: white;
+}
+
+.fa-bars, .fa-times {
+  cursor: pointer;
+}
+
+.navBar-item li {
+  display: inline-block;
+}
+
+@media (max-width: 991.98px) {
+  .navBar-item-right li {
+    display: none !important;
+  }
+}

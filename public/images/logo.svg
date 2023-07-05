@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="auto" height="38.247" viewBox="0 0 174.913 68.247">
+  <g id="Group_1502" data-name="Group 1502" transform="translate(-1687 -40)">
+    <g id="fixLink" transform="translate(1794.001 39.972)">
+      <path id="Path_1" data-name="Path 1" d="M173.623,291.03l12.619,11.358,5.679-6.31-12.546-11.292a.1.1,0,0,1-.007-.138l5.612-6.237,18.93,17.038,10.642-11.824a35.516,35.516,0,0,0-16.885-13.375,31.645,31.645,0,0,0-26.163,1.373A35.554,35.554,0,0,0,156.12,286.7l11.824,10.642Z" transform="translate(-152.287 -268.03)" fill="#19b5fe"/>
+      <path id="Path_2" data-name="Path 2" d="M179.616,476l-9.707,10.781,3.155,2.84-22.718,25.238-25.238-22.718,2.84-3.155-10.784-9.707A33.963,33.963,0,1,0,179.616,476Z" transform="translate(-115.13 -456.522)" fill="#19b5fe"/>
+    </g>
+    <text id="fixLink" transform="translate(1687 86)" fill="#19b5fe" font-size="35" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">F</tspan><tspan y="0" fill="#fff">ix</tspan><tspan y="0">l</tspan><tspan y="0" fill="#fff">ink</tspan></text>
+  </g>
+</svg>

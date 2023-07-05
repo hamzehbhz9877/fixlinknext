@@ -1,0 +1,40 @@
+@import "colors";
+
+.footer {
+  height: 70px;
+  background-color: transparent;
+  padding: 0 110px 0 30px;
+  position: relative;
+  display: grid;
+
+  &-content {
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+  }
+  & img {
+    position: absolute;
+    right: 0;
+    top: 45%;
+  }
+
+  & .telegram-robot {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: $x6;
+    & a {
+      color: $x6;
+    }
+  }
+  & .copyright {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+

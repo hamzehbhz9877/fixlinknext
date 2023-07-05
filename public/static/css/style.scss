@@ -1,0 +1,254 @@
+@import "colors";
+@font-face {
+  font-family: "BYekan";
+  src: url("../fonts/BYekan-webfont.eot") format("eot"),
+  url("../fonts/BYekan-webfont.woff") format("woff"),
+  url("../fonts/BYekan-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "BYekan" !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  overflow-x: hidden;
+  background-color: $x2
+}
+
+body, html, #__next{
+  min-height: 100vh;
+  width: 100%;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, ::before, ::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ol:not(.ck ol), ul:not(.ck ul) {
+  list-style: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: $x6;
+  -webkit-box-shadow: 0 0 0 1000px $x7 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  caret-color: $x6;
+}
+
+.ck-content > ol, .ck-content > ul {
+  margin: revert !important;
+  padding: revert !important;
+  color: white;
+
+  & li {
+    padding: 10px 0;
+  }
+}
+
+ul li, ol li {
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+}
+
+ul {
+  margin: 0 !important;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+
+table {
+  /*border-color does not have any effect here since we used collapse for boder-collapse*/
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+
+/*heading*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  color: $x6;
+  margin-bottom: 1.3rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: $x1;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: $x1;
+}
+
+a:hover, a:active {
+  outline: none;
+}
+
+p {
+  margin: 1em 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: $x6;
+}
+
+span {
+  font-size: 16px;
+}
+
+small {
+  font-size: .833em
+}
+
+em, i {
+  font-style: italic
+}
+
+strong, b {
+  font-weight: bold
+}
+
+code, pre {
+  font-family: "BYekan" !important;
+}
+
+hr {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-top: 1px solid #aaa;
+  clear: both;
+}
+
+blockquote {
+  padding: 0.2em 1em 0.2em 2em;
+  border-left: 3px solid #eee
+}
+
+button:hover {
+  color: inherit !important;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+

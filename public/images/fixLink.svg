@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="800" height="673" viewBox="0 0 1137 673">
+  <defs>
+    <filter id="FixLink" x="0" y="0" width="1137" height="473" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-opacity="0.369"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#FixLink)">
+    <text id="FixLink-2" data-name="FixLink" transform="translate(148.5 450.5)" fill="#222" font-size="283" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">FixLink</tspan></text>
+  </g>
+</svg>
